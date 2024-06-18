@@ -35,7 +35,7 @@ public class Main {
 
             // Bernardo gera a sua chave privada e pública
             // Parâmetros da curva elíptica
-            String mensagemParaAline = "Mensagem thiago";
+            String mensagemParaAline = "Mensagem Thiago Dev Back-end";
             BigInteger k = new BigInteger(256, random).mod(p); // Número aleatorio K
             ECPoint K = curve.multiply(k, G); // Chave efémera de Bernardo, criando a sua propria chave K = kA
 
